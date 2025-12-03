@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+@font-face {
+    font-family: "Rubbik Bubbles";
+    src: url(./fonts/RubikBubbles-Regular.ttf)
+}
+@font-face {
+    font-family: "Bounded-Variable";
+    src: url(./fonts/Bounded-Variable.ttf)
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+main.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    
+    margin-bottom: 230px;
+}
+
+.services_carousel {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* max-width: 1200px; */
+    padding: 20px;
+    justify-content: space-around;
+
+    margin-bottom: 130px;
+}
+
+.services_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+    max-width: 1150px;
+    padding: 40px;
+    background-color: white;
+    color: #FF9595;
+    border-radius: 15px;
+    border: 7px solid #FF9595;
+    text-align: left;
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); */
+}
+.services_card_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.services_card_textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    color: #3c3c3c;
+    font-size: 32px;
+    font-weight: 450;
+    max-width: 680px;
+}
+
+.arrow {
+    /*background: none;
+    font-size: 50px;
+    color: #FF9595; */
+    height: 70;
+    width: 27;
+    border: none;
+    background-color: #FFFFFF;
+
+    cursor: cell;
+}
+
+.arrow:hover {
+    color: #000;
+}
+
+.arrow.left {
+    margin-right: 20px;
+}
+
+.arrow.right {
+    margin-left: 20px;
+}
+.services_card img {
+    width: 416px;
+    height: 385px;
+    border-radius: 20px;
+    object-fit: cover
+}
+
+.services_title {
+    font-family: "Rubbik Bubbles", sans-serif;
+    font-size: 70px;
+    text-align: center;
+    color: #FF9595;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.services_carousel h2 {
+    color: #FF9595;
+    font-size: 60px;
+}
+.btn_call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-size: 36px;
+    font-weight: 450;
+    color: #FFFFFF;
+
+    background-color: #FF9595;
+    border-radius: 20px;
+    transition: 0.4s;
+    width: 600px;
+    height: 75px;
+
+    cursor: cell;
+}
+.btn_call:hover {
+    background-color: rgba(0, 0, 0, 0);
+    outline: 2px solid #FF9595;
+    color: #FF9595;
+    box-shadow: 1px 1px 5px 5px rgba(255, 0, 0, 0.3);
+}

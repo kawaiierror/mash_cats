@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Зефирные котята</title>
+      <link rel="stylesheet" href="assets/reviews.css">
+      <link rel="stylesheet" href="assets/header.css">
+      <link rel="stylesheet" href="assets/footer.css">
+      <script src="./index.js"></script>
+    </head>
+    <body>
+        <header class="header">
+          <div class="container">
+            <nav class="header_nav">
+              <ul class="header_list">
+                <li><a href="./index.html"><img alt="" class="logo_img" src="./img/cat_logo.svg"></a></li>
+                <li><a href="./about.html">О нас</a></li>
+                <li><a href="./catalog.html">Меню</a></li>
+                <li><a href="./services.html">Услуги</a></li>
+                <li><a href="./reviews.html">Отзывы</a></li>
+                <li>
+                    <ul class="header_icon_list">
+                        <li>
+                            <a href="./favorites.html"><img class="icon_img" alt="" src="./img/icon_fav.svg"></a>
+                        </li>
+                        <li>
+                            <a></a><img class="icon_img" alt="" src="./img/icon_user.svg"></a>
+                        </li>
+                        <li>
+                            <a href="./cart.html"><img class="icon_img" alt="" src="./img/icon_cart.svg"></a>
+                        </li>
+                    </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <main>
+            <div class="container">
+                <h2 class="reviews_title">ОТЗЫВЫ НАШИХ КЛИЕНТОВ</h2>
+                <div class="reviews_carousel">
+                    <button class="arrow left"><img src="./img/arrow_left.svg" alt=""></button>
+                        <div class="reviews_card">
+                            <div class="reviews_card_textbox">
+                                <h4>“Очень люблю это место!”</h4>
+                                <p>Очаровательная пекарня, в которую влюбляешься с первого визита! Уютный интерьер, приветливый персонал и невероятный аромат свежей выпечки создают неповторимую атмосферу. Особенно впечатлили миндальные круассаны и ягодные тарталетки — настоящее произведение искусства.</p>
+                                <h4>Олеся Пися, 38 лет, программист</h4>
+                            </div>
+                            <img src="./img/rates1.jpg" alt="">
+                        </div>
+                    <button class="arrow right"><img src="./img/arrow_right.svg" alt=""></button>
+                </div>
+                <h2 class="reviews_title">НАПИШИТЕ ОТЗЫВ</h2>
+                <div class="review_form">
+                    <div class="input_block_right">
+                        <div class="input_container">
+                            <p class="input_title">Ваше имя</p>
+                            <input type="text" name="user_name" placeholder=""class="input">
+                        </div>
+                        <div class="input_container">
+                            <p class="input_title">Ваша фамилия</p>
+                            <input type="text" name="user_last_name" placeholder=""class="input">
+                        </div>
+                        <div class="input_container">
+                            <p class="input_title">Заголовок отзыва</p>
+                            <input type="text" name="user_last_name" placeholder=""class="input">
+                        </div>
+                    </div>
+                    <div class="input_block_left">
+                        <div class="input_container">
+                            <p class="input_title">Текст отзыва</p>
+                            <input type="text" name="user_name" placeholder=""class="input">
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews_stars_container_info">
+                    <h3>Ваша оценка нашей компании</h3>
+                    <div class="reviews_stars">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                    </div>
+                    <button class="btn_send_review">Отправить отзыв</button>
+                </div>
+            </div>
+        </main>
+    </body>
+    <footer class="footer">
+      <div class="container">
+        <nav class="footer_nav">
+          <h2 class="footer_marsh_title">ЗЕФИРНЫЕ</h2>
+          <h2 class="footer_cats_title">КОТЯТА</h2>
+          <ul class="footer_nav_string1">
+            <li><a href="/">О нас</a></li>
+            <li><a href="/">Избранное</a></li>
+            <li><a href="/">Отзывы</a></li>
+          </ul>
+          <ul class="footer_nav_string2">
+            <li><a href="/">Меню</a></li>
+            <li><a href="/">Профиль</a></li>
+            <li><a href="/">Услуги</a></li>
+          </ul>
+        </nav>
+        <div class="footer_contacts">
+          <h4 class="footer_subtitle">Контакты</h4>
+          <div class="footer_phone">
+            <img alt="" src="./img/phone_logo.svg">
+            <a href="/">+8(880)555 35 35</a>
+          </div>
+          <div class="footer_mail">
+            <img alt="" src="./img/mail_logo.svg">
+            <a href="/">ilove@kirill.pavloskiy</a>
+          </div>
+          <div class="footer_adress">
+            <img alt="" src="./img/adress_logo.svg">
+            <a href="/">г.Томск, ул. Войкова, д.49</a>
+          </div>
+        </div>
+        <div class="footer_socialmedia">
+          <h4 class="footer_subtitle">Соцсети</h4>
+          <div class="footer_socialmedia_box">
+            <a href="https://max.ru/"><img alt="" src="./img/social_media_icon1.png"></a>
+            <a href="https://m.vk.com/"><img alt="" src="./img/social_media_icon2.png"></a>
+            <a href="https://dzen.ru/"><img alt="" src="./img/social_media_icon3.png"></a>
+            <a href="https://ok.ru/"><img alt="" src="./img/social_media_icon4.png"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+</html>

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+@font-face {
+    font-family: "Rubbik Bubbles";
+    src: url(./fonts/RubikBubbles-Regular.ttf)
+}
+@font-face {
+    font-family: "Bounded-Variable";
+    src: url(./fonts/Bounded-Variable.ttf)
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+main .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
+    margin-bottom: 230px;
+}
+.favorites_empty_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.favorites_title {
+    font-family: "Rubbik Bubbles", sans-serif;
+    font-size: 70px;
+    text-align: center;
+    color: #FF9595;
+    margin-top: 50px;
+}
+
+.favorites_items p {
+    font-weight: 450;
+    font-size: 32px;
+    color: #3c3c3c;
+}
+
+.favorites_empty_img {
+    height: 336px;
+    width: 313px;
+}
+
+.favorites_btn_buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-size: 34px;
+    font-weight: 450;
+    color: #FFFFFF;
+
+    background-color: #FF9595;
+    border-radius: 20px;
+    transition: 0.4s;
+    width: 420px;
+    height: 75px;
+    margin-top: 25px;
+}
+.favorites_btn_buy:hover {
+    background-color: rgba(0, 0, 0, 0);
+    outline: 2px solid #FF9595;
+    color: #FF9595;
+    box-shadow: 1px 1px 5px 5px rgba(255, 0, 0, 0.3);
+}
