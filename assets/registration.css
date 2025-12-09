@@ -84,3 +84,64 @@ main {
     color: #FF9595;
     box-shadow: 1px 1px 5px 5px rgba(255, 0, 0, 0.3);
 }
+
+
+@media (max-width: 768px) {
+    .registration_title {
+        font-size: 50px; /* уменьшение размера заголовка */
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .registartion_form {
+        width: 75%;
+        max-width: 85%;
+    }
+    .input_container {
+        width: 100%;
+    }
+    .input {
+        width: 100%; /* делаем ширину input в проценте от контейнера */
+        font-size: 20px; /* немного уменьшаем размер текста */
+        padding: 0.3rem 0.6rem;
+        border-radius: 15px;
+    }
+
+    .btn_register {
+        width: 75%;
+        max-width: 85%;
+        font-size: 24px;
+        height: 60px;
+        margin-top: 50px;
+    }
+}
+
+/* Еще более для мобильных устройств */
+@media (max-width: 400px) {
+    main {
+        margin-bottom: 150px; /* уменьшаем отступы по низу страницы */
+    }
+
+    .registration_title {
+        font-size: 32px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .input {
+        width: 100%;
+        font-size: 16px;
+        padding: 0.2rem 0.4rem;
+        height: 50px; /* уменьшаем высоту */
+    }
+
+    .btn_register {
+        font-size: 20px;
+        height: 50px;
+        font-size: 18px;
+        margin-top: 40px;
+    }
+    .input_title {
+    font-size: 18px;
+    }
+}
